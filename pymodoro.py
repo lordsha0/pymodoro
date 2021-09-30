@@ -4,10 +4,8 @@ import datetime as date
 import subprocess
 
 amountSeconds = 60
-#amountTimeBreak = 10 * amountSeconds
-#amountTimeWork = 20 * amountSeconds
-amountTimeWork = amountSeconds
-amountTimeBreak = amountSeconds
+amountTimeBreak = 10 * amountSeconds
+amountTimeWork = 20 * amountSeconds
 
 def setTimer(amountTime):
     global timeCurrent
