@@ -27,7 +27,7 @@ def countTimer(amountTime):
         time.sleep(60)
 
 
-timeTracker = -1
+timeTracker = 1
 while(True):
     if(timeTracker == -1):
         timeTracker = timeTracker * -1
